@@ -14,7 +14,7 @@
 	<h1 class="font-semibold text-2xl pb-3">Day 1 - The Naughty or Nice List</h1>
 
 	<div class="p-4 border-dashed border-red-500 border-2">
-		<form action="?/add-child" method="post" class="flex flex-row gap-3">
+		<form action="?/add-child" method="post" class="flex flex-row gap-3 sm:flex-col">
 			<label for="name" class="label">Name</label>
 			<input type="text" name="name" id="name" required class="form-control input input-bordered" />
 			<label for="tally" class="label">Tally</label>
